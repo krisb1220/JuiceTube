@@ -9,8 +9,8 @@ export default function  Video(props) {
 
   return (
     <section>
-      {/* {videoElements.get(props.state.currentVideo)} */}
-      {videoElements.get("7aS7KStPgNA")}
+      {videoElements.get(props.state.currentVideo)}
+      {/* {videoElements.get("7aS7KStPgNA")} */}
     </section>
   )
 }

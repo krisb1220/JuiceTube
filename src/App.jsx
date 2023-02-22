@@ -9,7 +9,7 @@ import data from "./data.js"
 import './App.css'
 
 export default function App(){
-  // console.clear();
+  
   console.log('app rendered')
 
   const videoMap = new Map(
@@ -20,7 +20,6 @@ export default function App(){
 
 
   const [state, setState] = React.useState({...data, currentVideo:"7aS7KStPgNA", videoMap:videoMap})
-  console.log(state);
 
   return (
     <main>

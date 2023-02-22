@@ -8,9 +8,8 @@ export default function  Playlist(props) {
 
     let handlePlaylistClick = function(event){
       console.log('click')
-      console.log(event.currentTarget.id);
       props.setState((prev)=>{
-        return {...prev, currentVideo: event.currentTarget.id}
+        return {...prev, currentVideo:event.currentTarget.id}
       });
     }
 
